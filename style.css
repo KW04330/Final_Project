@@ -36,7 +36,7 @@ nav ul li a {
 .home {
     text-align: center;
     background-color: #0073e6;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 50px 20px;
 }
 
