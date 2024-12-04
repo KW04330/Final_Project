@@ -7,11 +7,11 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #577594;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #004080;
 }
 
 .logo {
@@ -78,7 +78,7 @@ nav ul li a {
 }
 
 .location img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
